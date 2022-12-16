@@ -63,35 +63,69 @@ a {
 
     flex-wrap: wrap;
     display: flex;
-    justify-content: space-around;
+    
 }
 
 .row-content > .col {    
     flex-basis: 220px;
-    max-width: 400px;    
-    position: relative;
-       
+    max-width: 400px; 
+    margin-bottom: 20px;
+    position: relative; 
+      
 
 }
-.article{
+
+
+
+.price{
+    color: red;
+    bottom: 95px;
+}
+
+
+.icon{
+    color: white;
+    padding: 0px 5px;
+    max-width: max-content;
+    font-size: 15px;
     position: absolute;
-    z-index: 3;
-    position: absolute;
-    bottom: 0px;
-    left: 0;
-    width: 265px;
-    
+    z-index: 1;
+
+}
+
+.discount{
+    background-color: red;
+    bottom: 95px;
+   
     
 }
-.price{
+.eco{
+    background-color: green;
+    bottom: 95px;
+    right: 90px;
+    
+}
+
+.ecoleft{
+    background-color: green;
+    bottom: 95px;
+}
+
+.wishlist {
+    background-color: white;
+    color: black;
+    padding: 5px 12px;
+    position: absolute;
+    z-index: 1;
+    top: 3px;
+    right: 1px;
+    font-size: 20px;
+}
+
+a.wishlist:hover{
     color: red;
 }
 
-
-
-.col{
-    
-}
 
 
 
